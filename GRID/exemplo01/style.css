@@ -1,0 +1,29 @@
+.container{
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+
+    /* ativando grid */
+    display: grid;
+    /* A quantidade de parâmetro é a quantidade de coluna */
+    grid-template-columns: auto auto;
+    height: 25vh;
+    /* Tamanaho, respectivamente das linhas */
+    grid-template-rows: 70% 20%;
+    /* Distância entre os elementos de forma uniforme */
+    gap: 30px;
+    /* Distância entre elementos de forma individual */
+    row-gap: 20px;
+    column-gap: 50px;
+
+
+
+    
+    text-align: center;
+}
+
+.container div{
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue
+}
