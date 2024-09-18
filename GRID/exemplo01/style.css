@@ -9,7 +9,7 @@
     grid-template-columns: auto auto;
     height: 25vh;
     /* Tamanaho, respectivamente das linhas */
-    grid-template-rows: 70% 20%;
+    grid-template-rows: 50% 50%;
     /* Distância entre os elementos de forma uniforme */
     gap: 30px;
     /* Distância entre elementos de forma individual */
